@@ -281,7 +281,7 @@ def handle_command(event,username):
     
     # --- Help & basic ---
     if cmd=="help":
-        write("cls,diskstorage,tpm install/remove/list,mkdir,rmdir,ls,cd,pwd,ps,kill,ping,connect,browser open,setcolor,usr create/delete/setname/setpass,logout,notify\n")
+        write("cls,diskstorage,tpm install/remove/list,mkdir,rmdir,ls,cd,pwd,ps,kill,ping,connect,browser open,setcolor,usr create/delete/setname/setpass,logout\n")
     elif cmd=="cls": clear_screen()
     elif cmd=="diskstorage": disk_storage()
     
@@ -460,3 +460,4 @@ def handle_command(event,username):
 
 boot_screen()
 root.mainloop()
+
